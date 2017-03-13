@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading" style="margin-top: -50px;">Portfolio</h2><br>
-                    <p>I'm learning to program in JavaScript - this is where I will put my projects.</p>
+                    <p style="font-size: 20px;"> I'm learning to program in JavaScript - this is where I will keep my projects.</p> <br>
                 </div>
             </div>
             <div class="row">
@@ -113,11 +113,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>To Do List</h4>
-                        <p class="text-muted">Javascript/HTML/CSS (in progress)</p>
+                        <p class="text-muted">(in progress)</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
                         <img style="height: 180px; width: 560px;" src="img/portfolio/soon.png" class="img-responsive" alt="">
                     <div class="portfolio-caption">
                         <h4>Coming soon!</h4>
@@ -125,6 +124,47 @@
                     </div>
                 </div>
             </div>
+
+            <!-- C PROJECTS -->
+            <div class="col-lg-12 text-center">
+                    <p style="font-size: 20px;">This is where I keep my C projects.</p><br>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 180px; width: 560px;" src="img/portfolio/syllable.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Syllable Counter</h4>
+                        <p class="text-muted">Programmed with C</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/maddiegabriel/reversePoem" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 180px; width: 560px;" src="img/portfolio/poem.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Reverse a Poem!</h4>
+                        <p class="text-muted">Programmed with C</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <img style="height: 180px; width: 560px;" src="img/portfolio/soon.png" class="img-responsive" alt="">
+                    <div class="portfolio-caption">
+                        <h4>Coming soon!</h4>
+                        <p class="text-muted">More on the way.</p>
+                    </div>
+                </div>
         </div>
     </section>
 
@@ -237,8 +277,6 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
                         <li><a href="#">Terms of Use</a>
                         </li>
                     </ul>
@@ -309,7 +347,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 
+    <!-- Portfolio Modal 2 TO DO LIST 
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -326,8 +364,7 @@
                                 <h2>Project Heading</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <p>Description.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -338,6 +375,101 @@
     </div>
     </div>
     -->
+
+    <!-- Portfolio Modal 3  SYLLABLE COUNTER -->
+     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Flesch Index<br>Syllable Counter</h2>
+                                <p style="font-size: 15px;"> 
+                                This project can be downloaded from my github here: <br>
+                                    <a href="https://github.com/maddiegabriel/syllableCounter" >github.com/maddiegabriel/syllableCounter</a> <br> <br>
+                                
+                                This program counts the number of words/syllables/sentences in a given text file. It also calculates the readability of the text using the "Flesch Index" calculation.<br> <br> 
+
+                                Please compile using the makefile: <br>
+                                    >> type "make" in the terminal<br> <br> 
+
+                                Please run the program by typing: <br>
+                                    >> ./fleschIndex filename <br> <br> 
+                                Where 'filename' is the name of a .txt filename containing a sentence/paragraph/etc.<br> <br> 
+                                
+                                To run with the sample text file, please type:<br>
+                                    ./fleschIndex whitman.txt<br> <br>
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Portfolio Modal 4  REVERSE POEM-->
+     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Reverse a Poem!</h2>
+                                <p style="font-size: 15px;"> 
+                                This project can be downloaded from my github here: <br>
+                                    <a href="https://github.com/maddiegabriel/reversePoem" >github.com/maddiegabriel/reversePoem</a> <br> <br>
+                                
+                                This program reverses the order of a given poem.<br> <br> 
+
+                                Please compile using the makefile: <br>
+                                    >> type "make" in the terminal<br> <br> 
+
+                                Please run the program by typing: <br>
+                                    >> ./reversePoem <br> <br> 
+                                
+                                When prompted, please type in a multi-line poem of your choice!
+                                <br>
+                                To terminate the program, please type a single period '.' on a newline.<br>
+                                It will output your poem in reverse order! <br> <br>
+                                Sample Input: <br>
+                                    ----------------------------------------<br> <br>
+                                    Not to the swift, the race: <br>
+                                    Not to the strong, the fight:<br>
+                                    Not to the righteous, perfect grace: <br>
+                                    Not to the wise, the light.<br>
+                                    But often faltering feet<br>
+                                    Come surest to the goal; <br>
+                                    And they who walk in darkness meet<br>
+                                    The sunrise of the soul.<br>
+                                    Henry Van Dyke<br>
+                                    .<br>
+                                    ----------------------------------------<br>
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
