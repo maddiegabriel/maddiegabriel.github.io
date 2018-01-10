@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+.checklist-1 {
+  margin-left: 20% !important;
+}
+
+.checklist-2 {
+  margin-left: 30% !important;
+}
+
+.list-social-icons a {
+  color: #495057; 
+}
+
+.list-social-icons a:hover {
+  color: #ffc107; 
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem; 
+}
+
+.list-icons {
+  font-size: 3rem; 
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #ffc107; 
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; 
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none; 
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; 
+  }
+  section.resume-section .resume-item .resume-date {
+      min-width: 18rem; 
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; 
+  }
+}
+
+.bg-skills {
+  background-color: #e6e6e6 !important; 
+}
+
+.div-center {
+  margin: 0 auto;
+  max-width:100%;
+}

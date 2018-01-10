@@ -23,6 +23,13 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   </head>
 
@@ -57,40 +64,41 @@
     <!-- bullets part -->
     <section class="bg-secondary" id="about">
       <div class="container">
-        <div class="row">
+        <div class="row" style="background-color:white;">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase"><br>About Maddie</h2>
             <h3 class="section-subheading text-muted"><br>I'm in my second year of studies in the Software Engineering program at the University of Guelph!<br></h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 mx-auto text-center">
-            <h1 class="section-heading text-uppercase"><br>Highlights<br></h2>
-            <ul class="section-subheading text-muted list-nav"><br>
-              <li>Major: Software Engineering (Co-Op)</li>
-              <li>Minor: French Studies & Mathematics</li>
-              <li>Ceramic artist and pottery teacher</li>
-              <li>4 brothers, 1 sister and 3 pet rats</li>
-              <li>UoG Teaching Assistant for Software Design I</li>
-              <li>Peer Helper/Academic Counsellor for the UoG Library</li><br>
-            </ul>
-          </div>
-          <div class="col-lg-6 mx-auto text-center">
-            <h1 class="section-heading text-uppercase"><br>Top Courses<br></h2>
-            <ul class="section-subheading text-muted list-nav"><br>
-              <li>Software Design (I,II,II)</li>
-              <li>Object Oriented Programming</li>
-              <li>France: Literature & Society</li>
-              <li>Advanced Calculus</li>
-              <li>Structures & Principles of Microcomputing</li>
-              <li>Crime & Criminal Justice</li>
-              <li>Discrete Structures in Computing</li><br>
-            </ul>
-          </div>
-          </div>
-        </div>
+      </div>
+    </section> 
+
+    <section class="bg-secondary" id="bullets">
+      <div class="container">
+          <div class="subheading mb-3 text-center text-uppercase"><br>Highlights<br></div>
+          <ul class="fa-ul mb-0 div-center checklist-2 list-nav">
+            <li>Major: Software Engineering (Co-Op)</li>
+            <li>Minor: French Studies & Mathematics</li>
+            <li>Ceramic artist and pottery teacher</li>
+            <li>Completed a Tech Internship at <a href="https://www.hdsb.ca/Pages/Home.aspx" target="_blank">HDSB</a> (Summer 2017)</li>
+            <li>4 brothers, 1 sister and 3 pet rats</li>
+            <li>UoG Teaching Assistant for Software Design I</li>
+            <li>Peer Helper/Academic Counsellor for the UoG Library</li>
+          </ul>
+
+          <div class="subheading mb-3 text-center text-uppercase"><br>Tech Experience<br></div>
+          <ul class="fa-ul mb-0 div-center checklist-2 list-nav">
+            <li>Academically: over 40 projects in C, Java, Perl</li>
+            <li>Internship in SharePoint development environment</li>
+            <li>Web Design: HTML/CSS, JavaScript and Bootstrap</li>
+            <li>Exposure to Python</li>
+            <li>4 brothers, 1 sister and 3 pet rats</li>
+            <li>UoG Teaching Assistant for Software Design I</li>
+            <li>Peer Helper/Academic Counsellor for the UoG Library</li>
+          </ul>
       </div>
     </section>
+
 
     <!-- icon part -->
     <section id="services">
@@ -128,43 +136,138 @@
       </div>
     </section>
 
-    <!-- bullets part -->
-    <section class="bg-secondary" id="about">
-      <div class="container">
-          <div class="row">
-            <div class="row">
-              <div class="col-lg-6 text-center">
-                <h2 class="section-heading text-uppercase"><br>Tech Experience</h2>
-                <h3 class="section-subheading text-muted">
-                  <ul class="section-subheading text-muted list-nav"><br>
-                    <li>Academically: projects in C, Java, Perl</li>
-                    <li>Internship in SharePoint development environment</li>
-                    <li>Web Design: HTML/CSS, JavaScript and Bootstrap</li>
-                    <li>Exposure to Python</li>
-                    <li>Structures & Principles of Microcomputing</li>
-                    <li>Crime & Criminal Justice</li>
-                    <li>Discrete Structures in Computing</li><br>
-                  </ul>
-                </h3>
-              </div>
-              <div class="col-lg-6 text-center">
-                <h2 class="section-heading text-uppercase"><br>Extracurriculurs</h2>
-                <h3 class="section-subheading text-muted">
-                  <ul class="section-subheading text-muted list-nav"><br>
-                    <li>Founder & President of GWiCS (Guelph Women in Computer Science)</li>
-                    <li>Communitech's Code to Win Challenge</li>
-                    <li>Digital Ocean Hacktoberfest</li>
-                    <li>Canadian Undergraduate Software Engineering Conference (CUSEC 2018)</li>
-                    <li>Member of the Society of Computing & Information Sciences (SoCIS)</li>
-                    <li>On the College of Physical & Engineering Sciences Student Council (CPESSC)</li>
-                    <li>Participant in Amazon Alexa Skills Workshop</li>
-                    <li>Note Taker for Student Accessibility Services (SAS)</li><br>
-                  </ul>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section class="resume-section bg-skills p-3 p-lg-5 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <h1 class="subheading text-uppercase text-center"><br>Programming Languages<br></h2>
+        <ul class="list-inline list-icons text-center">
+          <li class="list-inline-item">
+            <i class="devicons devicons-html5" title="HTML5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-css3" title="CSS3"></i>
+          </li>
+          <li class="list-inline-item" title="Bootstrap">
+            <i class="devicons devicons-bootstrap"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-javascript" title="JavaScript"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-c-plain" title="C"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-java" title="Java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-python" title="Python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-perl" title="Perl"></i>
+          </li>
+        </ul>
+
+        <h1 class="subheading text-uppercase text-center"><br>Programming Tools<br></h2>
+        <ul class="list-inline list-icons text-center">
+          <li class="list-inline-item" title="Git">
+            <i class="devicons devicons-git"></i>
+          </li>
+          <li class="list-inline-item" title="GitHub">
+            <i class="devicons devicons-github"></i>
+          </li>
+          <li class="list-inline-item" title="Linux">
+            <i class="devicons devicons-linux"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-wordpress" title="Wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-vim" title="Vim"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-sublime" title="Sublime"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-intellij" title="IntelliJ"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-netbeans" title="NetBeans"></i>
+          </li>
+          <br>
+          <li class="list-inline-item">
+            <i class="devicons devicon-slack-plain" title="Slack"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicons-trello" title="Trello"></i>
+          </li>
+          <li class="list-inline-item" title="Scrum">
+            <i class="devicons devicons-scrum"></i>
+          </li>
+          <li class="list-inline-item" title="Markdown">
+            <i class="devicons devicons-markdown"></i>
+          </li>
+          <li class="list-inline-item" title="Codepen">
+            <i class="devicons devicons-codepen"></i>
+          </li>
+          <li class="list-inline-item" title="Raspberry Pi">
+            <i class="devicons devicons-raspberry_pi"></i>
+          </li>
+          <li class="list-inline-item" title="Terminal">
+            <i class="devicons devicons-terminal_badge"></i>
+          </li>
+          <li class="list-inline-item" title="Responsive Web Design">
+            <i class="devicons devicons-responsive"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3 text-center text-uppercase"><br>Extracurriculurs<br></div>
+        <ul class="fa-ul mb-0 div-center checklist-1">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Founder & President of GWiCS (Guelph Women in Computer Science)</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Communitech's Code to Win Challenge</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Canadian Undergraduate Software Engineering Conference (CUSEC 2018)</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Member of the Society of Computing & Information Sciences (SoCIS)</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            On the College of Physical & Engineering Sciences Student Council (CPESSC)</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Participant in Amazon Alexa Skills Workshop</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Note Taker for Student Accessibility Services (SAS)</li>
+        </ul>
+
+        <div class="subheading mb-3 text-center text-uppercase"><br><br>Favourite Courses</div>
+        <ul class="fa-ul mb-0 div-center checklist-1">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Software Design (I,II,II)</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Object Oriented Programming</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            France: Literature & Society</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Advanced Calculus</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Structures & Principles of Microcomputing</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Crime & Criminal Justice</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Discrete Structures in Computing</li>
+        </ul>
       </div>
     </section>
 
