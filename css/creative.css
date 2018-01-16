@@ -475,7 +475,7 @@ header.masthead p {
 }
 
 .extra .list-nav {
-    margin-left: -12%;
+    list-style-position: inside;
 }
 
 .list-nav li {
@@ -483,6 +483,7 @@ header.masthead p {
     background-size: 20px;
     text-align: left;
     padding-left: 32px;
+    list-style-position: inside;
 }
 
 .text-primary {

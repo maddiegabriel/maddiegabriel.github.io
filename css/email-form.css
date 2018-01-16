@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  font-family: Helvetica;  
+  color: #FFFFFF;
+  background-color: #000639;
+}
+
+.wrapper {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+// use responsive media queries to adjust for smaller screens/mobile view
+@media(max-width: 1224px) {
+  .wrapper {
+    max-width: 60%;
+  }
+}
+
+@media(max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
+
+.title {
+  font-size: 24px;
+}
+
+.break {
+  width: 25px;
+  margin: 0 0 40px 0;
+  border: 1.5px solid #7AB55C;
+}
+
+#email_field, #interest_field {
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#email_field {
+  width: 55%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+#interest_field {
+  width: 34%;
+  height: 46px;
+  cursor: pointer;
+}
+
+.signup_button {
+  width: 93%;
+  height: 60px;
+  margin: 10px 0px 120px 0px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #5C6AC4;
+}
+
+// decided to stack fields for small screen
+@media(max-width: 500px) {
+  #email_field {
+    width: 98%;
+    margin-bottom: 15px;
+  }
+
+  #interest_field {
+    width: 100%;
+  }
+  
+  .signup_button {
+    width: 100%;
+  }
+}
+
+@media(max-width: 320px) {
+  #email_field {
+    width: 94%;
+  }
+}
+
+.unsubscribe_link {
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+select {
+  appearance:none;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  background: url('https://s13.postimg.org/gd2c02byf/arrow.png') no-repeat right #FEFEFE;
+  color: #7B7B7B;
+}
+
+#error_message {
+  visibility: hidden;
+  font-weight: bold;
+  font-size: 14px;
+  color: #C23628;
+}
+
+select {
+  color: #7B7B7B;
+  padding-left: 14px;
+  font-family: Helvetica !important;
+}
