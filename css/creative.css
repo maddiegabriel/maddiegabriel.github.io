@@ -214,8 +214,7 @@ header.masthead p {
 @media (min-width:992px) {
    
     header.masthead {
-        height: 100vh;
-        max-height: 630px;
+        height: 100%;
         padding-top: 0;
         padding-bottom: 0;
     }
