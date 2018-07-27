@@ -6,11 +6,11 @@
 .buttonHolder {
     margin: 0 auto !important;
     padding: 20px;
+    display: table-caption;
 }
 
 .border {
   margin: 0 auto;
-  padding: 10px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
