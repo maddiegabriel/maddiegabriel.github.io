@@ -4,9 +4,10 @@
 }
 
 .buttonHolder {
-    margin: 0 auto !important;
-    padding: 20px;
-    display: table-caption;
+  margin: 0 auto !important;
+  padding: 20px;
+  display: table-caption;
+  min-width: 445px;
 }
 
 .border {
