@@ -10,7 +10,6 @@ body {
   margin: 0 auto;
 }
 
-// use responsive media queries to adjust for smaller screens/mobile view
 @media(max-width: 1224px) {
   .wrapper {
     max-width: 60%;

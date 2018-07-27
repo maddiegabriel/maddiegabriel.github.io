@@ -497,3 +497,10 @@ header.masthead p {
     font-weight: bold;
     font-size: 25px;
 }
+
+.accordion-button {
+    text-align: center;
+    border: none !important;
+    cursor: pointer;
+    color: #000 !important;
+}
