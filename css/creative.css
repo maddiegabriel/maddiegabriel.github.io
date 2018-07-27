@@ -26,6 +26,10 @@ body {
 
 #mainNav, #mainNav .navbar-brand, .btn, h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+#mainNav, #mainNav .navbar-brand {
     font-size: 1.5rem;
 }
 
