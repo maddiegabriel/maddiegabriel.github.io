@@ -26,8 +26,6 @@
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; 
 }
 
 section.resume-section .resume-item .resume-date {
@@ -39,14 +37,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh; 
   }
   section.resume-section .resume-item .resume-date {
-      min-width: 18rem; 
-  }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; 
+    min-width: 18rem; 
   }
 }
 
@@ -56,7 +47,6 @@ section.resume-section .resume-item .resume-date {
 
 .div-center-small {
   margin: 0 auto;
-  max-width: 485px;
   list-style-position: inside;
 }
 

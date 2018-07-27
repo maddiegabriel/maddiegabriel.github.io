@@ -503,4 +503,5 @@ header.masthead p {
     border: none !important;
     cursor: pointer;
     color: #000 !important;
+    text-decoration: none !important;
 }
