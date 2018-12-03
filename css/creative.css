@@ -517,3 +517,15 @@ header.masthead p {
 .DivForHoverItem:hover .HiddenText {
     display:block;
 }
+
+#headingOne {
+    border-left: 10px solid grey;
+}
+
+#headingTwo {
+    border-left: 10px solid blue;
+}
+
+#headingThree {
+    border-left: 10px solid orange;
+}
