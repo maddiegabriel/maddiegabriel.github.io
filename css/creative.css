@@ -1,3 +1,11 @@
+#HiddenText {
+    display: none;
+}
+
+#DivForHoverItem:hover #HiddenText {
+    display:block;
+}
+
 a {
     color: #32777b;
 }
