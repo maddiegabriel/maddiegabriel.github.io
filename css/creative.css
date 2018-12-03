@@ -519,13 +519,13 @@ header.masthead p {
 }
 
 #headingOne {
-    border-left: 10px solid grey;
+    border-left: 15px solid #e63434;
 }
 
 #headingTwo {
-    border-left: 10px solid blue;
+    border-left: 15px solid #dc0099;
 }
 
 #headingThree {
-    border-left: 10px solid orange;
+    border-left: 15px solid #f58d35;
 }
