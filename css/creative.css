@@ -1,11 +1,3 @@
-#HiddenText {
-    display: none;
-}
-
-#DivForHoverItem:hover #HiddenText {
-    display:block;
-}
-
 a {
     color: #32777b;
 }
@@ -516,4 +508,12 @@ header.masthead p {
     cursor: pointer;
     color: #000 !important;
     text-decoration: none !important;
+}
+
+.HiddenText {
+    display: none;
+}
+
+.DivForHoverItem:hover .HiddenText {
+    display:block;
 }
