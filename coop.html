@@ -4,6 +4,15 @@
 <html lang="en">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40962585-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-40962585-3');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,7 +35,7 @@
 
   </head>
 
-  <body id="page-top">
+  <body id="page-top" style="background-color: #fff;">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -57,30 +66,37 @@
       </div>
     </nav>
 
-    <!-- PORTFOLIO -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1 style="font-size: 3rem;">Work Term Reports</h1><br><br>  
+        <p>This is where I keep my co-op work term reports! If you don't know me yet - I'm Maddie, a 3rd year Software Engineering student at the University of Guelph. I just finished my first (8-month) work term at Sun Life Financial! My next co-op semester is Summer 2019.<br><br>Please click the links below to learn about each of my work terms. You will find information about each company, the projects I worked on and what professional goals I achieved. I hope theese reports give you an idea of how my overall co-op experience was. Enjoy!</p>
+      </div>
+    </div>
+
+    <!-- CO-OPS -->
     <section class="content-section" id="portfolio">
       <div class="container">
         <div class="row no-gutters">
           <div class="col-lg-6" id="DivForHoverItem">
-            <a class="portfolio-item" target="_blank" href="#">
+            <a class="portfolio-item" href="./sunlife.html">
               <span class="caption">
                 <span class="caption-content">
                   <h1></h1>
                   <p class="mb-0"></p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/sunlife.png" alt="">
+              <img class="img-fluid" src="img/coop/sunlife.png" alt="">
             </a>
           </div>
           <div class="col-lg-6">
             <div class="portfolio-item" style="display: flex; align-items: center; justify-content: center;">
-              <span class="caption" style="background-color: transparent;">
+              <span class="caption" style="background-color: transparent; height: 90%;">
                 <span class="caption-content" style="color:black;">
-                  <h1>First Work Term: Sun Life Financial</h1>
+                  <h1><a href="./sunlife.html">First Work Term: Sun Life Financial</a></h1>
                   <p class="mb-0">Summer + Fall 2018<br>Voice Application Developer<br>Report coming soon!</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/white.png" alt="">
+              <img class="img-fluid" src="img/coop/white.png" alt="">
             </div>
           </div>
         </div>

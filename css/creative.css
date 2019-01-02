@@ -529,3 +529,16 @@ header.masthead p {
 #headingThree {
     border-left: 15px solid #f58d35;
 }
+
+.coop-desc {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+}
+
+#my-job, #sun-life {
+    padding: 5rem 0;
+}
+
+#my-job {
+    background-color: #ffc107;
+}
