@@ -535,10 +535,25 @@ header.masthead p {
     padding-top: 0.8rem;
 }
 
-#my-job, #sun-life {
+#my-job {
     padding: 5rem 0;
+    background-color: #ffc107;
 }
 
-#my-job {
-    background-color: #ffc107;
+#sun-life {
+    padding: 7rem 0 7rem 0;
+    background-color: #f9f9f9;
+}
+
+#skills {
+    padding: 5rem 0 5rem 0;
+    background-color: #f9f9f9;
+}
+
+.w3layouts {
+    margin-bottom: 0.8rem;
+}
+
+#photos img {
+    border-radius: 8px;
 }
