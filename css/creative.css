@@ -557,3 +557,7 @@ header.masthead p {
 #photos img {
     border-radius: 8px;
 }
+
+#sunlife-links:hover {
+    color: black;
+}
