@@ -35,12 +35,8 @@ h3 {
     font-size: 1.5rem !important;
 }
 
-#menu2:hover, #menu4:hover {
+#menuthing:hover, #menu4:hover {
     color: rgb(255, 238, 0) !important;
-}
-
-#menu3:hover {
-    color:rgb(0, 196, 0) !important;
 }
 
 .contacty {
